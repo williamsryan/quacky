@@ -1,7 +1,8 @@
 # RE2SMT: translates PCRE regex to SMT-LIB
 
 from cachetools import cached
-from lark import *
+# Broken import. Fix later.
+# from lark import *
 import re
 
 grammar = open('re2smt/pcre.lark', 'r').read()
